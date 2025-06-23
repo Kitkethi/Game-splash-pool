@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  display: flex; justify-content: center; align-items: center;
+  height: 100vh; margin: 0;
+}
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px; width: 90%;
+}
+#status { font-size: 1.4em; margin: 10px 0; }
+#players, #uptime { font-size: 1.1em; margin: 5px 0; }
